@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="POM-TESTAUTOMATIONBOOTCAMP" verbose ="4"> 
+<test name ="CreateTaskWithoutMandatoryFields"> 
+
+ <!-- <parameter   name ="url" value ="https://login.salesforce.com/" /> -->
+<!-- <parameter   name ="browser" value ="chrome"  />  
+ -->
+<classes>
+ <class name="testCase.CreateTaskWithoutMandatoryFields"> </class>
+  <class name="testCase.DeleteEvent"> </class>
+ 
+</classes>
+
+</test>
+</suite>
